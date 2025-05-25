@@ -11,7 +11,7 @@ Proyek ini adalah implementasi dasar dari fitur **drag and drop** menggunakan HT
 
 ## 🚀 Cara Menjalankan
 
-Buka link berikut:
+Buka link berikut: https://drag-and-drop-sage.vercel.app/
 
 
 ## 🛠️ Teknologi
