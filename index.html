@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <a href="https://github.com/MuhWildanA" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+    <div class="container">
+        <h1>Simple Board</h1>
+        <div class="board">
+            <!-- LIST 1 -->
+             <div class="list" id="list1">
+                <h2>To Do</h2>
+                <div class="card" id="card1" draggable="true">learn CSS</div>
+                <div class="card" id="card2" draggable="true">learn Javascript</div>
+             </div>
+             <!-- LIST 2 -->
+             <div class="list" id="list2">
+                 <h2>In Progress</h2>
+                 <div class="card" id="card3" draggable="true">learn HTML</div>
+             </div>
+             <!-- LIST 3 -->
+             <div class="list" id="list3">
+                 <h2>Done</h2>
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
